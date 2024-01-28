@@ -5,7 +5,7 @@
 
 
 
--🔭 I’m currently Studying Computer Science.<br>-🌱 I’m currently learning Frameworks, courses.<br>- ⚡ Fun fact **I am funny 😅**
+-🔭 I’m currently Studying Computer Science.<br>-🌱 I’m currently learning Frameworks, courses.<br>- 📫 You can reach me at kadarikaushik078@gmail.com ⚡ Fun fact **I am funny 😅**
 
 
 ## 🌐 Socials:
