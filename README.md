@@ -7,7 +7,7 @@
 
 -🔭 I’m currently Studying Computer Science.<br>-🌱 I’m currently learning Frameworks, courses.<br>- 📫 You can reach me at kadarikaushik078@gmail.com<br>- ⚡ Fun fact **I am funny 😅**
 
-<br><br<br>
+<br><br><br>
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/kadari-kaushik-b54242266/) 
 
