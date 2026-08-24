@@ -1,0 +1,6 @@
+Add your real avatar image here as `avatar.png` (used by the GitHub README).
+Also add the same image to `portfolio/public/avatar.png` (used by the website hero).
+
+No avatar was generated for you — the brief asked for your existing image,
+and none was provided in this conversation, so both READMEs/components
+reference a path that needs a real file dropped in before things render.
