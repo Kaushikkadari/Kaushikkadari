@@ -31,17 +31,27 @@ Hey, I'm **Kadari Kaushik** 👋 — working as a **Data Scientist**, focused on
 and applied AI. Open to **Data Scientist / AI roles**, and currently deepening my skills
 in ML frameworks, data engineering, and cloud (Azure).
 
-Outside of code, you'll usually find me:
-- 🎬 **Editing** — video/photo editing on the side
-- ✍️ **Writing** — for fun and to think out loud
-- 😂 **Memer** — professionally unserious, unofficially the group's meme supplier
-
 📫 Reach me at **kadarikaushik078@gmail.com**
 ⚡ Fun fact: **I am funny 😅**
 
 </td>
 </tr>
 </table>
+
+<br>
+
+<div align="center">
+
+```
+$ cat hobbies.md
+```
+
+Data Scientist chasing clean pipelines by day, chaotic memes by night.
+*"Debug in silence, ship in style."*
+
+🎬 **Editing**&nbsp;&nbsp;·&nbsp;&nbsp;✍️ **Writing**&nbsp;&nbsp;·&nbsp;&nbsp;😂 **Memer**
+
+</div>
 
 <br>
 
