@@ -20,11 +20,28 @@
 $ cat about_me.txt
 ```
 
-- 💼 Working as a **Data Scientist**, focused on ML pipelines and applied AI
-- 🎯 Open to **Data Scientist / AI roles**
-- 🌱 Currently deepening skills in **ML frameworks, data engineering & cloud (Azure)**
-- 📫 Reach me at **kadarikaushik078@gmail.com**
-- ⚡ Fun fact: **I am funny 😅**
+<table>
+<tr>
+<td width="30%" align="center">
+<img src="./assets/avatar.png" width="90%"/>
+</td>
+<td width="70%">
+
+Hey, I'm **Kadari Kaushik** 👋 — working as a **Data Scientist**, focused on ML pipelines
+and applied AI. Open to **Data Scientist / AI roles**, and currently deepening my skills
+in ML frameworks, data engineering, and cloud (Azure).
+
+Outside of code, you'll usually find me:
+- 🎬 **Editing** — video/photo editing on the side
+- ✍️ **Writing** — for fun and to think out loud
+- 😂 **Memer** — professionally unserious, unofficially the group's meme supplier
+
+📫 Reach me at **kadarikaushik078@gmail.com**
+⚡ Fun fact: **I am funny 😅**
+
+</td>
+</tr>
+</table>
 
 <br>
 
