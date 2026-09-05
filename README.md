@@ -14,13 +14,6 @@
 
   <br/>
 
-  <!-- 🔮 FUTURE TECH HOLOGRAPHIC AVATAR -->
-  <a href="https://github.com/Kaushikkadari">
-    <img src="./assets/avatar_future_tech.gif" width="180" height="180" alt="Kadari Kaushik Future Tech Holographic Avatar" style="border-radius: 50%; border: 3px solid #00F0FF; box-shadow: 0 0 25px rgba(0, 240, 255, 0.45);" />
-  </a>
-
-  <br/><br/>
-
   <!-- ⚡ DYNAMIC FUTURE TECH TYPING BANNER -->
   <a href="https://github.com/Kaushikkadari">
     <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&duration=2800&pause=1100&color=00F0FF&center=true&vCenter=true&width=740&lines=AI+%26+Software+Systems+Architect+%E2%9C%A6;Training+Hybrid+CNN-LSTM+Neural+Networks+%E2%9C%A6;Architecting+Scalable+Full-Stack+Web+Engines+%E2%9C%A6;With+Great+Tech+Stack+Comes+Great+Responsibility+%E2%9A%A1;Turning+Complex+Algorithms+Into+Production+Systems+%E2%9C%A6" alt="Future Tech Dynamic Slogan" />
@@ -47,8 +40,16 @@
 
 ## 🔮 / SYSTEM IDENTITY MATRIX (ABOUT ME)
 
-<table>
+<table border="0" width="100%">
   <tr>
+    <td width="230" align="center" valign="middle">
+      <!-- 🔮 FUTURE TECH HOLOGRAPHIC AVATAR ON LEFT -->
+      <a href="https://github.com/Kaushikkadari">
+        <img src="./assets/avatar_future_tech.gif" width="190" height="190" alt="Kadari Kaushik Future Tech Holographic Avatar" style="border-radius: 50%; border: 3px solid #00F0FF; box-shadow: 0 0 25px rgba(0, 240, 255, 0.45);" />
+      </a>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/IDENTITY-VERIFIED%20%E2%9C%A6-00F0FF?style=flat-square&labelColor=060911" alt="Identity Verified" />
+    </td>
     <td valign="top">
       <h3>Greetings, Explorer! 👋 I'm <b>Kadari Kaushik</b></h3>
       <p>
