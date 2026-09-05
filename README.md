@@ -1,15 +1,22 @@
 <div align="center">
 
-  <!-- 🌌 FUTURE TECH HERO BANNER -->
+  <!-- 🌌 HIGH-TECH ANIMATED HERO BANNER (SILKY SMOOTH LASER SWEEP & CIRCUIT PULSES) -->
   <a href="https://github.com/Kaushikkadari">
-    <img src="./assets/future_tech_banner.jpg" width="100%" alt="Kaushik Kadari - AI & Software Systems Architect Banner" style="border-radius: 14px; box-shadow: 0 10px 30px rgba(0, 240, 255, 0.25);" />
+    <img src="./assets/future_tech_banner.gif" width="100%" alt="Kaushik Kadari - Animated Future Tech Banner" style="border-radius: 14px; box-shadow: 0 10px 30px rgba(0, 240, 255, 0.3);" />
   </a>
 
   <br/><br/>
 
+  <!-- ⚡ DYNAMIC ANIMATED NAME TITLE (GRADIENT SHIMMER, CYBER GLOW & SCANNING LASER) -->
+  <a href="https://github.com/Kaushikkadari">
+    <img src="./assets/animated_name.svg" width="100%" alt="Kaushik Kadari - Animated Name" />
+  </a>
+
+  <br/>
+
   <!-- 🔮 FUTURE TECH HOLOGRAPHIC AVATAR -->
   <a href="https://github.com/Kaushikkadari">
-    <img src="./assets/avatar_future_tech.gif" width="180" height="180" alt="Kadari Kaushik Future Tech Holographic Avatar" style="border-radius: 50%; border: 3px solid #00F0FF; box-shadow: 0 0 25px rgba(0, 240, 255, 0.4);" />
+    <img src="./assets/avatar_future_tech.gif" width="180" height="180" alt="Kadari Kaushik Future Tech Holographic Avatar" style="border-radius: 50%; border: 3px solid #00F0FF; box-shadow: 0 0 25px rgba(0, 240, 255, 0.45);" />
   </a>
 
   <br/><br/>

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="100%" height="120">
+  <defs>
+    <!-- Dynamic Animated Gradient Sweeping Across Name -->
+    <linearGradient id="textShimmerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff">
+        <animate attributeName="stop-color" values="#00f0ff;#8b5cf6;#ffffff;#00f0ff" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="30%" stop-color="#8b5cf6">
+        <animate attributeName="stop-color" values="#8b5cf6;#ffffff;#00f0ff;#8b5cf6" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="60%" stop-color="#ffffff">
+        <animate attributeName="stop-color" values="#ffffff;#00f0ff;#8b5cf6;#ffffff" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00f0ff">
+        <animate attributeName="stop-color" values="#00f0ff;#8b5cf6;#ffffff;#00f0ff" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Holographic Cyber Glow Filter -->
+    <filter id="nameGlow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800;900&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap');
+      
+      .main-name {
+        font-family: 'Orbitron', -apple-system, sans-serif;
+        font-weight: 900;
+        font-size: 52px;
+        letter-spacing: 8px;
+        fill: url(#textShimmerGrad);
+        filter: drop-shadow(0 0 12px rgba(0, 240, 255, 0.45));
+      }
+
+      .sub-name {
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 700;
+        font-size: 13px;
+        letter-spacing: 4px;
+        fill: #94a3b8;
+      }
+
+      /* Scanning Laser Beam */
+      @keyframes laserScan {
+        0% { transform: translateX(0px); opacity: 0; }
+        20% { opacity: 1; }
+        80% { opacity: 1; }
+        100% { transform: translateX(700px); opacity: 0; }
+      }
+
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.8; }
+        50% { opacity: 1; filter: drop-shadow(0 0 18px rgba(0, 240, 255, 0.8)); }
+      }
+
+      @keyframes cursorBlink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+
+      .laser-line {
+        animation: laserScan 3.5s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+      }
+
+      .name-group {
+        animation: pulseGlow 3s ease-in-out infinite;
+      }
+
+      .cursor {
+        animation: cursorBlink 1s infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Animated Main Name -->
+  <g class="name-group" text-anchor="middle">
+    <!-- Offset Shadow Glitch Layer -->
+    <text x="403" y="62" class="main-name" fill="#8b5cf6" opacity="0.3">KAUSHIK KADARI</text>
+    <text x="397" y="60" class="main-name" fill="#00f0ff" opacity="0.3">KAUSHIK KADARI</text>
+    
+    <!-- Primary Glowing Text -->
+    <text x="400" y="61" class="main-name">KAUSHIK KADARI</text>
+  </g>
+
+  <!-- Scanning Laser Bar Across Name -->
+  <g transform="translate(50, 68)">
+    <line x1="0" y1="0" x2="700" y2="0" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+    <!-- Laser Beam Pulse -->
+    <line x1="0" y1="0" x2="80" y2="0" stroke="#00f0ff" stroke-width="2.5" class="laser-line" filter="url(#nameGlow)"/>
+  </g>
+
+  <!-- Subtitle with Blinking Cyber Cursor -->
+  <g text-anchor="middle" transform="translate(400, 96)">
+    <text class="sub-name">
+      <tspan fill="#00f0ff">✦</tspan> AI &amp; SOFTWARE SYSTEMS ARCHITECT <tspan fill="#8b5cf6">✦</tspan> HYDERABAD, IN <tspan class="cursor" fill="#00f0ff">_</tspan>
+    </text>
+  </g>
+</svg>
