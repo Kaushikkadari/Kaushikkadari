@@ -1,18 +1,47 @@
 <div align="center">
 
-  <!-- 🕸️ SPIDER-MAN ANIMATED HERO BANNER -->
-  <img src="./assets/hero_banner.svg" width="100%" alt="Kadari Kaushik - Spider-Man Hero Banner" />
-
-  <br/><br/>
-
-  <!-- ⚡ DYNAMIC ANIMATED TYPING BANNER -->
+  <!-- 🕸️ CINEMATIC SPIDER-VERSE HERO BANNER -->
   <a href="https://github.com/Kaushikkadari">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&duration=2800&pause=1100&color=E62429&center=true&vCenter=true&width=720&lines=Friendly+Neighborhood+Software+Engineer+%F0%9F%95%B7%EF%B8%8F;Swinging+Between+Python%2C+Django+%26+Deep+Learning+%F0%9F%95%B8%EF%B8%8F;Building+AI-Powered+ECG+Diagnostics+%26+Web+Portals+%F0%9F%9A%80;With+Great+Code+Comes+Great+Responsibility+%E2%9A%A1;Turning+Complex+Algorithms+Into+Production+Systems+%F0%9F%92%BB" alt="Spider-Typing Dynamic Slogan" />
+    <img src="./assets/hero_banner.jpg" width="100%" alt="Kaushik Kadari - Software & AI Engineer Spider-Man Banner" style="border-radius: 14px; box-shadow: 0 10px 30px rgba(230, 36, 41, 0.3);" />
   </a>
 
   <br/><br/>
 
-  <!-- 🛡️ SPIDER-MAN HUD STATUS BADGES -->
+  <!-- 🕷️ PROMINENT HERO TRIO: MILES MORALES + ANIMATED AVATAR + SPIDER-MAN ACTION -->
+  <table border="0">
+    <tr>
+      <td align="center" valign="middle" width="30%">
+        <img src="./assets/miles_morales_swing.gif" width="170" alt="Miles Morales Web Swinging" style="border-radius: 12px; border: 2px solid #E62429;" />
+        <br/>
+        <sub><b>🕸️ INTO THE SPIDER-VERSE</b></sub>
+      </td>
+      <td align="center" valign="middle" width="40%">
+        <a href="https://github.com/Kaushikkadari">
+          <img src="./assets/avatar_animated.gif" width="180" height="180" alt="Kadari Kaushik Animated Portrait" style="border-radius: 50%; border: 3px solid #E62429;" />
+        </a>
+        <br/>
+        <b>KADARI KAUSHIK</b>
+        <br/>
+        <sub>🕷️ Friendly Neighborhood Engineer</sub>
+      </td>
+      <td align="center" valign="middle" width="30%">
+        <img src="./assets/spiderman_ps5_action.gif" width="170" alt="Spider-Man PS5 Action" style="border-radius: 12px; border: 2px solid #00D2FF;" />
+        <br/>
+        <sub><b>⚡ SPIDER-ARMOR ONLINE</b></sub>
+      </td>
+    </tr>
+  </table>
+
+  <br/>
+
+  <!-- ⚡ DYNAMIC ANIMATED TYPING BANNER -->
+  <a href="https://github.com/Kaushikkadari">
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&duration=2800&pause=1100&color=E62429&center=true&vCenter=true&width=740&lines=Friendly+Neighborhood+Software+Engineer+%F0%9F%95%B7%EF%B8%8F;Swinging+Between+Python%2C+Django+%26+Deep+Learning+%F0%9F%95%B8%EF%B8%8F;Building+AI-Powered+ECG+Diagnostics+%26+Web+Portals+%F0%9F%9A%80;With+Great+Code+Comes+Great+Responsibility+%E2%9A%A1;Turning+Complex+Algorithms+Into+Production+Systems+%F0%9F%92%BB" alt="Spider-Typing Dynamic Slogan" />
+  </a>
+
+  <br/><br/>
+
+  <!-- 🛡️ HIGH-TECH HUD STATUS BADGES -->
   <p align="center">
     <img src="https://komarev.com/ghpvc/?username=kaushikkadari&label=SPIDER-RADAR%20VIEWS&color=E62429&style=for-the-badge&labelColor=0B0E14" alt="Radar Profile Views" />
     &nbsp;
@@ -31,16 +60,8 @@
 
 ## 🕷️ / IDENTITY MATRIX (ABOUT ME)
 
-<table border="0" width="100%">
+<table>
   <tr>
-    <td width="200" align="center" valign="middle">
-      <!-- Animated Avatar with Pulsing Spider-Man Cyber Ring & Swinging Companion -->
-      <a href="https://github.com/Kaushikkadari">
-        <img src="./assets/avatar_animated.gif" width="165" height="165" alt="Kadari Kaushik Animated Portrait" />
-      </a>
-      <br/>
-      <img src="./assets/spiderman_hanging.svg" width="100" alt="Swinging Spider-Man" />
-    </td>
     <td valign="top">
       <h3>Hey there, True Believer! 👋 I'm <b>Kadari Kaushik</b></h3>
       <p>
@@ -82,6 +103,16 @@
 <img src="./assets/web_divider.svg" width="100%" alt="Spider Web Divider" />
 
 ## 🕸️ / THE WEB OF SKILLS (TECH ARSENAL)
+
+<div align="center">
+  <p>
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=python,ts,js,java,c,django,react,nextjs,tailwind,bootstrap,postgres,sqlite,pytorch,tensorflow,opencv,git,github,vscode,ps&theme=dark" alt="Tech Stack Icons" />
+    </a>
+  </p>
+</div>
+
+<br/>
 
 <table width="100%" border="0">
   <tr>
@@ -266,22 +297,25 @@
 
 <img src="./assets/web_divider.svg" width="100%" alt="Spider Web Divider" />
 
-## 🎮 / SPIDER-LABS: CODING IN ACTION
+## 🎬 / SPIDER-VERSE: ACTION IN MOTION
 
 <table width="100%" border="0">
   <tr>
-    <td width="55%" align="center">
-      <img src="./assets/spiderman_coding.gif" width="100%" alt="Spider-Man Coding at Terminal" style="border-radius: 10px; border: 2px solid #E62429;" />
+    <td width="50%" align="center">
+      <img src="./assets/across_spiderverse.gif" width="100%" alt="Across the Spider-Verse Action" style="border-radius: 12px; border: 2px solid #E62429;" />
     </td>
-    <td width="45%" valign="middle">
+    <td width="50%" align="center">
+      <img src="./assets/spiderman_swing_action.gif" width="100%" alt="Spider-Man Web Swing" style="border-radius: 12px; border: 2px solid #00D2FF;" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <br/>
       <blockquote>
         <p><b>"Anyone can wear the mask. You can wear the mask. If you didn't know that before, I hope you do now."</b></p>
-        <p><i>— Into the Spider-Verse</i></p>
+        <p><i>— Spider-Man: Into the Spider-Verse</i></p>
       </blockquote>
-      <p>
-        Whether it's building deep neural networks or scaling backend APIs, I approach every project with passion, precision, and the drive to make a meaningful impact.
-      </p>
-      <div align="center">
+      <div>
         <code>COMPILE</code> ➜ <code>TRAIN</code> ➜ <code>TEST</code> ➜ <code>DEPLOY</code> ➜ <code>REPEAT</code>
       </div>
     </td>
