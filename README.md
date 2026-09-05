@@ -273,19 +273,19 @@
 <div align="center">
   <table border="0">
     <tr>
-      <td>
-        <!-- SPIDER-MAN SUIT THEMED GITHUB STATS -->
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Kaushikkadari&show_icons=true&title_color=E62429&icon_color=00D2FF&text_color=E0E6ED&bg_color=0B0E14&border_color=E62429&hide_border=false" height="170" alt="Kaushik's GitHub Stats" />
+      <td align="center" valign="middle">
+        <!-- ROCK-SOLID SPIDER-MAN HUD STATS CARD -->
+        <img src="./assets/github_stats.svg" width="440" alt="Kaushik's GitHub Stats" style="border-radius: 10px;" />
       </td>
-      <td>
-        <!-- SPIDER-MAN THEMED STREAK STATS -->
-        <img src="https://streak-stats.demolab.com/?user=Kaushikkadari&theme=dark&background=0B0E14&border=E62429&stroke=E62429&ring=E62429&fire=E62429&currStreakNum=00D2FF&sideNums=E0E6ED&currStreakLabel=00D2FF&dates=8B949E" height="170" alt="Kaushik's GitHub Streak" />
+      <td align="center" valign="middle">
+        <!-- LIVE SPIDER-MAN THEMED STREAK STATS -->
+        <img src="https://streak-stats.demolab.com/?user=Kaushikkadari&theme=dark&background=0B0E14&border=E62429&stroke=E62429&ring=E62429&fire=E62429&currStreakNum=00D2FF&sideNums=E0E6ED&currStreakLabel=00D2FF&dates=8B949E" width="440" alt="Kaushik's GitHub Streak" style="border-radius: 10px;" />
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <!-- SPIDER-MAN THEMED TOP LANGUAGES -->
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Kaushikkadari&layout=compact&title_color=E62429&text_color=E0E6ED&bg_color=0B0E14&border_color=E62429&hide_border=false" width="400" alt="Kaushik's Top Languages" />
+        <!-- ROCK-SOLID SPIDER-MAN TOP LANGUAGES CARD -->
+        <img src="./assets/top_langs.svg" width="440" alt="Kaushik's Top Languages" style="border-radius: 10px;" />
       </td>
     </tr>
   </table>
