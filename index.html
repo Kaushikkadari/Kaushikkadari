@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kadari Kaushik // Future Tech Neural Core</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #06080e;
+      color: #f1f5f9;
+      font-family: 'Rajdhani', sans-serif;
+      overflow-x: hidden;
+      min-height: 100vh;
+      background-image: 
+        radial-gradient(circle at 15% 20%, rgba(0, 240, 255, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 70%, rgba(139, 92, 246, 0.08) 0%, transparent 40%);
+    }
+
+    /* Cyber grid overlay */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-size: 40px 40px;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Navigation / HUD Header */
+    .hud-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 24px;
+      background: rgba(11, 17, 32, 0.7);
+      border: 1px solid rgba(0, 240, 255, 0.25);
+      border-radius: 12px;
+      backdrop-filter: blur(12px);
+      margin-bottom: 30px;
+    }
+
+    .logo-text {
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 900;
+      font-size: 1.1rem;
+      letter-spacing: 2px;
+      color: #00f0ff;
+      text-shadow: 0 0 12px rgba(0, 240, 255, 0.5);
+    }
+
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+      color: #10b981;
+      background: rgba(16, 185, 129, 0.1);
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #10b981;
+      box-shadow: 0 0 8px #10b981;
+    }
+
+    /* Hero Card */
+    .hero-card {
+      background: rgba(13, 19, 33, 0.65);
+      border: 1px solid rgba(139, 92, 246, 0.3);
+      border-radius: 20px;
+      padding: 40px;
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      backdrop-filter: blur(16px);
+      margin-bottom: 40px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), inset 0 0 30px rgba(0, 240, 255, 0.05);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-card::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #00f0ff, #8b5cf6, transparent);
+    }
+
+    .avatar-wrapper {
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .avatar-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      border: 3px solid #00f0ff;
+      box-shadow: 0 0 25px rgba(0, 240, 255, 0.35);
+    }
+
+    .hero-info h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.4rem;
+      font-weight: 900;
+      letter-spacing: 3px;
+      color: #ffffff;
+      margin-bottom: 8px;
+      text-shadow: 0 0 20px rgba(0, 240, 255, 0.3);
+    }
+
+    .hero-subtitle {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #00f0ff;
+      letter-spacing: 2px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    .hero-desc {
+      font-size: 1.1rem;
+      color: #94a3b8;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+
+    .quote-box {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.9rem;
+      color: #8b5cf6;
+      background: rgba(139, 92, 246, 0.08);
+      border-left: 3px solid #8b5cf6;
+      padding: 10px 16px;
+      border-radius: 4px;
+    }
+
+    /* Interactive Projects Grid */
+    .section-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+      color: #f1f5f9;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, rgba(0, 240, 255, 0.4), transparent);
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+
+    .project-card {
+      background: rgba(13, 19, 33, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 24px;
+      backdrop-filter: blur(12px);
+      cursor: pointer;
+      position: relative;
+      transition: border-color 0.3s ease;
+    }
+
+    .project-card:hover {
+      border-color: rgba(0, 240, 255, 0.5);
+    }
+
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .project-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #f1f5f9;
+    }
+
+    .project-badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7rem;
+      padding: 4px 10px;
+      border-radius: 12px;
+      background: rgba(0, 240, 255, 0.12);
+      color: #00f0ff;
+      border: 1px solid rgba(0, 240, 255, 0.25);
+    }
+
+    .project-desc {
+      font-size: 0.95rem;
+      color: #94a3b8;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+
+    .project-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 20px;
+    }
+
+    .tag-pill {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      background: rgba(255, 255, 255, 0.04);
+      color: #cbd5e1;
+      padding: 3px 8px;
+      border-radius: 6px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .project-actions {
+      display: flex;
+      gap: 12px;
+    }
+
+    .btn-cyber {
+      flex: 1;
+      text-align: center;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-decoration: none;
+      letter-spacing: 1px;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #00f0ff, #00a8ff);
+      color: #060911;
+      box-shadow: 0 4px 15px rgba(0, 240, 255, 0.3);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0, 240, 255, 0.5);
+    }
+
+    .btn-secondary {
+      background: rgba(139, 92, 246, 0.12);
+      color: #c084fc;
+      border: 1px solid rgba(139, 92, 246, 0.3);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(139, 92, 246, 0.2);
+      transform: translateY(-2px);
+    }
+
+    /* Terminal Widget */
+    .terminal-card {
+      background: #090d16;
+      border: 1px solid rgba(0, 240, 255, 0.2);
+      border-radius: 12px;
+      padding: 24px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.9rem;
+      color: #cbd5e1;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      margin-bottom: 40px;
+    }
+
+    .terminal-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .term-btn {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+
+    .term-red { background: #ef4444; }
+    .term-yellow { background: #f59e0b; }
+    .term-green { background: #10b981; }
+
+    .term-line {
+      margin-bottom: 8px;
+      line-height: 1.5;
+    }
+
+    .term-prompt { color: #00f0ff; }
+    .term-val { color: #f1f5f9; }
+    .term-accent { color: #8b5cf6; }
+
+    @media (max-width: 768px) {
+      .hero-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 24px;
+      }
+      .quote-box {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- HUD Header -->
+    <header class="hud-header" id="hudHeader">
+      <div class="logo-text">KAUSHIK_KADARI // QUANTUM_OS</div>
+      <div class="status-pill">
+        <span class="status-dot"></span>
+        SYSTEM STATUS: OPTIMAL
+      </div>
+    </header>
+
+    <!-- Hero Card -->
+    <section class="hero-card" id="heroCard">
+      <div class="avatar-wrapper" id="avatarWrap">
+        <img src="./assets/avatar_future_tech.gif" alt="Kadari Kaushik" class="avatar-img" />
+      </div>
+      <div class="hero-info" id="heroInfo">
+        <h1>KADARI KAUSHIK</h1>
+        <div class="hero-subtitle">AI &amp; SOFTWARE SYSTEMS ARCHITECT</div>
+        <p class="hero-desc">
+          B.Tech in Computer Science &amp; Engineering (AI &amp; ML) Graduate from Hyderabad, India. Dedicated to engineering high-performance deep learning diagnostic pipelines and production-grade full-stack architectures.
+        </p>
+        <div class="quote-box">
+          &gt; "With Great Tech Stack Comes Great Responsibility"
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Projects Grid -->
+    <h2 class="section-title">HIGH-PRIORITY SYSTEMS</h2>
+    <div class="projects-grid" id="projectsGrid">
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-title">CardioDetect AI</div>
+          <span class="project-badge">DEEP LEARNING</span>
+        </div>
+        <p class="project-desc">
+          Hybrid CNN-LSTM neural architecture detecting cardiovascular abnormalities from raw digital ECG signals and paper ECG print scans.
+        </p>
+        <div class="project-tags">
+          <span class="tag-pill">Python</span>
+          <span class="tag-pill">PyTorch / TF</span>
+          <span class="tag-pill">CNN + LSTM</span>
+          <span class="tag-pill">OpenCV</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://cardiodetect.vercel.app" target="_blank" class="btn-cyber btn-primary">LAUNCH APP</a>
+          <a href="https://github.com/Kaushikkadari/Detection-of-Cardiovascular-Diseases-Using-CNN-And-LSTM" target="_blank" class="btn-cyber btn-secondary">SOURCE</a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-title">Smart Campus Portal</div>
+          <span class="project-badge">ENTERPRISE FULLSTACK</span>
+        </div>
+        <p class="project-desc">
+          Enterprise school management portal featuring role-based dashboards (Admin, Teacher, Student), automated attendance logs, and financial records.
+        </p>
+        <div class="project-tags">
+          <span class="tag-pill">Django</span>
+          <span class="tag-pill">Python</span>
+          <span class="tag-pill">RBAC</span>
+          <span class="tag-pill">PostgreSQL</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://smartschoolportal.vercel.app" target="_blank" class="btn-cyber btn-primary">LAUNCH APP</a>
+          <a href="https://github.com/Kaushikkadari/School-Management-System" target="_blank" class="btn-cyber btn-secondary">SOURCE</a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-title">Inventory ERP</div>
+          <span class="project-badge">FINANCIAL ENGINE</span>
+        </div>
+        <p class="project-desc">
+          Multi-role inventory control system supporting automated stock tracking, purchase orders, invoicing, payments, and financial analytics.
+        </p>
+        <div class="project-tags">
+          <span class="tag-pill">Django</span>
+          <span class="tag-pill">Python</span>
+          <span class="tag-pill">Analytics</span>
+          <span class="tag-pill">Vercel</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://inventory-management-system-theta-nine-19.vercel.app" target="_blank" class="btn-cyber btn-primary">LAUNCH APP</a>
+          <a href="https://github.com/Kaushikkadari/Inventory-Management-System" target="_blank" class="btn-cyber btn-secondary">SOURCE</a>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-title">KK Whisper</div>
+          <span class="project-badge">SPEECH AI</span>
+        </div>
+        <p class="project-desc">
+          Next-generation speech-to-text intelligence tool providing high-accuracy transcription, timestamps, and modern exports.
+        </p>
+        <div class="project-tags">
+          <span class="tag-pill">TypeScript</span>
+          <span class="tag-pill">Next.js</span>
+          <span class="tag-pill">Speech AI</span>
+          <span class="tag-pill">TailwindCSS</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://kkwhisper.vercel.app" target="_blank" class="btn-cyber btn-primary">LAUNCH APP</a>
+          <a href="https://github.com/Kaushikkadari/kkwhisper" target="_blank" class="btn-cyber btn-secondary">SOURCE</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Terminal Widget -->
+    <div class="terminal-card" id="termCard">
+      <div class="terminal-header">
+        <div class="term-btn term-red"></div>
+        <div class="term-btn term-yellow"></div>
+        <div class="term-btn term-green"></div>
+        <span style="margin-left: 8px; font-size: 0.8rem; color: #64748b;">kaushik@quantum-node: ~</span>
+      </div>
+      <div class="term-line"><span class="term-prompt">$ whoami</span> &rarr; <span class="term-val">Kadari Kaushik // AI &amp; Software Systems Architect</span></div>
+      <div class="term-line"><span class="term-prompt">$ sys.location</span> &rarr; <span class="term-val">Hyderabad, India [17.3850&deg; N, 78.4867&deg; E]</span></div>
+      <div class="term-line"><span class="term-prompt">$ neural_net.status</span> &rarr; <span class="term-accent">CNN-LSTM Architecture Active &amp; Verified</span></div>
+      <div class="term-line"><span class="term-prompt">$ core.directive</span> &rarr; <span class="term-val">"With Great Tech Stack Comes Great Responsibility"</span></div>
+    </div>
+  </div>
+
+  <!-- MOTION.DEV SCRIPT IMPORT & SMOOTH PHYSICS IMPLEMENTATION -->
+  <script type="module">
+    import { animate, spring } from 'https://cdn.jsdelivr.net/npm/motion@11.11.17/+esm';
+
+    // 1. Smooth Spring Header Entrance
+    animate('#hudHeader', 
+      { y: [-30, 0], opacity: [0, 1] }, 
+      { duration: 0.8, easing: spring({ stiffness: 200, damping: 18 }) }
+    );
+
+    // 2. Hero Card Scale & Glow Entrance
+    animate('#heroCard', 
+      { scale: [0.95, 1], opacity: [0, 1] }, 
+      { duration: 1, delay: 0.2, easing: spring({ stiffness: 180, damping: 22 }) }
+    );
+
+    // 3. Avatar Float Motion
+    animate('#avatarWrap',
+      { y: [0, -8, 0] },
+      { duration: 4, repeat: Infinity, easing: 'ease-in-out' }
+    );
+
+    // 4. Staggered Entrance for Project Cards using Motion.dev
+    const cards = document.querySelectorAll('.project-card');
+    cards.forEach((card, i) => {
+      animate(card, 
+        { y: [40, 0], opacity: [0, 1] }, 
+        { duration: 0.7, delay: 0.3 + (i * 0.12), easing: spring({ stiffness: 220, damping: 20 }) }
+      );
+
+      // Interactive Spring Hover Effect
+      card.addEventListener('mouseenter', () => {
+        animate(card, 
+          { y: -6, scale: 1.02, boxShadow: '0 15px 30px rgba(0, 240, 255, 0.2)' }, 
+          { easing: spring({ stiffness: 350, damping: 25 }) }
+        );
+      });
+
+      card.addEventListener('mouseleave', () => {
+        animate(card, 
+          { y: 0, scale: 1, boxShadow: '0 0px 0px rgba(0, 0, 0, 0)' }, 
+          { easing: spring({ stiffness: 350, damping: 25 }) }
+        );
+      });
+    });
+
+    // 5. Terminal Card Entrance
+    animate('#termCard',
+      { opacity: [0, 1], y: [20, 0] },
+      { duration: 0.8, delay: 0.8, easing: spring({ stiffness: 200, damping: 20 }) }
+    );
+  </script>
+</body>
+</html>

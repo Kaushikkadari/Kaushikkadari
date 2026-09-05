@@ -1,80 +1,59 @@
 <div align="center">
 
-  <!-- 🕸️ CINEMATIC SPIDER-VERSE HERO BANNER -->
+  <!-- 🌌 FUTURE TECH HERO BANNER -->
   <a href="https://github.com/Kaushikkadari">
-    <img src="./assets/hero_banner.jpg" width="100%" alt="Kaushik Kadari - Software & AI Engineer Spider-Man Banner" style="border-radius: 14px; box-shadow: 0 10px 30px rgba(230, 36, 41, 0.3);" />
+    <img src="./assets/future_tech_banner.jpg" width="100%" alt="Kaushik Kadari - AI & Software Systems Architect Banner" style="border-radius: 14px; box-shadow: 0 10px 30px rgba(0, 240, 255, 0.25);" />
   </a>
 
   <br/><br/>
 
-  <!-- 🕷️ PROMINENT HERO TRIO: MILES MORALES + ANIMATED AVATAR + SPIDER-MAN ACTION -->
-  <table border="0">
-    <tr>
-      <td align="center" valign="middle" width="30%">
-        <img src="./assets/miles_morales_swing.gif" width="170" alt="Miles Morales Web Swinging" style="border-radius: 12px; border: 2px solid #E62429;" />
-        <br/>
-        <sub><b>🕸️ INTO THE SPIDER-VERSE</b></sub>
-      </td>
-      <td align="center" valign="middle" width="40%">
-        <a href="https://github.com/Kaushikkadari">
-          <img src="./assets/avatar_animated.gif" width="180" height="180" alt="Kadari Kaushik Animated Portrait" style="border-radius: 50%; border: 3px solid #E62429;" />
-        </a>
-        <br/>
-        <b>KADARI KAUSHIK</b>
-        <br/>
-        <sub>🕷️ Friendly Neighborhood Engineer</sub>
-      </td>
-      <td align="center" valign="middle" width="30%">
-        <img src="./assets/spiderman_ps5_action.gif" width="170" alt="Spider-Man PS5 Action" style="border-radius: 12px; border: 2px solid #00D2FF;" />
-        <br/>
-        <sub><b>⚡ SPIDER-ARMOR ONLINE</b></sub>
-      </td>
-    </tr>
-  </table>
-
-  <br/>
-
-  <!-- ⚡ DYNAMIC ANIMATED TYPING BANNER -->
+  <!-- 🔮 FUTURE TECH HOLOGRAPHIC AVATAR -->
   <a href="https://github.com/Kaushikkadari">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&duration=2800&pause=1100&color=E62429&center=true&vCenter=true&width=740&lines=Friendly+Neighborhood+Software+Engineer+%F0%9F%95%B7%EF%B8%8F;Swinging+Between+Python%2C+Django+%26+Deep+Learning+%F0%9F%95%B8%EF%B8%8F;Building+AI-Powered+ECG+Diagnostics+%26+Web+Portals+%F0%9F%9A%80;With+Great+Code+Comes+Great+Responsibility+%E2%9A%A1;Turning+Complex+Algorithms+Into+Production+Systems+%F0%9F%92%BB" alt="Spider-Typing Dynamic Slogan" />
+    <img src="./assets/avatar_future_tech.gif" width="180" height="180" alt="Kadari Kaushik Future Tech Holographic Avatar" style="border-radius: 50%; border: 3px solid #00F0FF; box-shadow: 0 0 25px rgba(0, 240, 255, 0.4);" />
   </a>
 
   <br/><br/>
 
-  <!-- 🛡️ HIGH-TECH HUD STATUS BADGES -->
+  <!-- ⚡ DYNAMIC FUTURE TECH TYPING BANNER -->
+  <a href="https://github.com/Kaushikkadari">
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&duration=2800&pause=1100&color=00F0FF&center=true&vCenter=true&width=740&lines=AI+%26+Software+Systems+Architect+%E2%9C%A6;Training+Hybrid+CNN-LSTM+Neural+Networks+%E2%9C%A6;Architecting+Scalable+Full-Stack+Web+Engines+%E2%9C%A6;With+Great+Tech+Stack+Comes+Great+Responsibility+%E2%9A%A1;Turning+Complex+Algorithms+Into+Production+Systems+%E2%9C%A6" alt="Future Tech Dynamic Slogan" />
+  </a>
+
+  <br/><br/>
+
+  <!-- 🛡️ QUANTUM HUD STATUS TELEMETRY -->
   <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=kaushikkadari&label=SPIDER-RADAR%20VIEWS&color=E62429&style=for-the-badge&labelColor=0B0E14" alt="Radar Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=kaushikkadari&label=QUANTUM%20VIEWS&color=00F0FF&style=for-the-badge&labelColor=060911" alt="Quantum Views" />
     &nbsp;
-    <img src="https://img.shields.io/badge/SUIT_STATUS-ACTIVE%20%E2%9A%A1-00D2FF?style=for-the-badge&logoColor=white&labelColor=0B0E14" alt="Suit Status" />
+    <img src="https://img.shields.io/badge/SYSTEM_STATUS-ONLINE%20%E2%9C%A6-8B5CF6?style=for-the-badge&logoColor=white&labelColor=060911" alt="System Status Online" />
     &nbsp;
-    <img src="https://img.shields.io/badge/BASE-HYDERABAD%2C%20IN-E62429?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0B0E14" alt="Location Hyderabad" />
+    <img src="https://img.shields.io/badge/BASE-HYDERABAD%2C%20IN-00F0FF?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=060911" alt="Location Hyderabad" />
     &nbsp;
     <a href="https://www.linkedin.com/in/kadarikaushik/">
-      <img src="https://img.shields.io/badge/CONNECT-LINKEDIN-00D2FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B0E14" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/CONNECT-LINKEDIN-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=060911" alt="LinkedIn" />
     </a>
   </p>
 
 </div>
 
-<img src="./assets/web_divider.svg" width="100%" alt="Spider Web Divider" />
+<img src="./assets/future_divider.svg" width="100%" alt="Fiber Optic Divider" />
 
-## 🕷️ / IDENTITY MATRIX (ABOUT ME)
+## 🔮 / SYSTEM IDENTITY MATRIX (ABOUT ME)
 
 <table>
   <tr>
     <td valign="top">
-      <h3>Hey there, True Believer! 👋 I'm <b>Kadari Kaushik</b></h3>
+      <h3>Greetings, Explorer! 👋 I'm <b>Kadari Kaushik</b></h3>
       <p>
-        I'm a <b>Computer Science & Engineering (AI & ML)</b> graduate and full-stack software engineer based in <b>Hyderabad, India</b>. Just like Peter Parker swinging through NYC skyscrapers, I traverse the multiverse of <b>Artificial Intelligence</b>, <b>Deep Learning</b>, and <b>Scalable Web Architectures</b>.
+        I'm a <b>Computer Science & Engineering (AI & ML)</b> graduate and full-stack software systems architect based in <b>Hyderabad, India</b>. I specialize in designing and deploying high-performance <b>Artificial Intelligence models</b>, <b>Deep Neural Networks</b>, and <b>Production Full-Stack Web Architectures</b>.
       </p>
       <p>
-        My focus bridges research and high-reliability production: from training <b>hybrid CNN-LSTM neural nets</b> that detect heart abnormalities from raw ECG signals, to architecting multi-role enterprise web engines with <b>Django</b> and <b>TypeScript</b>.
+        My technical discipline centers on bridging scientific research with production-grade engineering: from training <b>hybrid CNN-LSTM deep learning architectures</b> to detect cardiovascular disease from multi-format ECG signals, to building multi-role enterprise web engines with <b>Django</b> and <b>TypeScript</b>.
       </p>
       <ul>
-        <li>🎓 <b>Education:</b> B.Tech in CSE (Artificial Intelligence & Machine Learning), Class of 2025.</li>
-        <li>🧠 <b>Core Discipline:</b> Computer Vision, Time-Series Deep Learning, and Signal Processing.</li>
-        <li>🌐 <b>Full-Stack Craft:</b> Robust backend APIs, Role-Based Access Control (RBAC), and responsive modern frontends.</li>
-        <li>⚡ <b>Spider-Sense Fact:</b> <i>"My Spider-Sense tingles whenever code doesn't pass unit tests on the first push!"</i> 🕸️</li>
+        <li>🎓 <b>Academic Foundation:</b> B.Tech in CSE (Artificial Intelligence & Machine Learning), Class of 2025.</li>
+        <li>🧠 <b>Core Discipline:</b> Computer Vision, Time-Series Neural Models, Signal Processing, and Scalable Backend Engineering.</li>
+        <li>⚡ <b>Core Directive:</b> <i>"With Great Tech Stack Comes Great Responsibility."</i></li>
       </ul>
     </td>
   </tr>
@@ -82,27 +61,25 @@
 
 <br/>
 
-<!-- 🖥️ PETER PARKER PROTOCOL HUD -->
+<!-- 🖥️ QUANTUM CORE TERMINAL HUD -->
 <div align="center">
 
 ```text
-╔═════════════════════════════════════════════════════════════════════════════════════════════════════╗
-║  🕷️ PETER_PARKER_PROTOCOL // KAUSHIK_KADARI_SYSTEMS_v2.0                                           ║
-╠═════════════════════════════════════════════════════════════════════════════════════════════════════╣
-║  $ identity.whoami()       ➜ "Kadari Kaushik | Software & AI/ML Engineer"                           ║
-║  $ location.current()      ➜ "Hyderabad, India [17.3850° N, 78.4867° E]"                            ║
-║  $ spider_sense.status()   ➜ "ACTIVE // 0 Unhandled Exceptions in Production"                       ║
-║  $ current_mission()       ➜ "Engineering High-Impact AI Diagnostics & Scalable Full-Stack Systems" ║
-║  $ coffee_reserves()       ➜ [████████████████████] 100% RECHARGED                                  ║
-║  $ moral_code()            ➜ "With Great Tech Stack Comes Great Responsibility"                     ║
-╚═════════════════════════════════════════════════════════════════════════════════════════════════════╝
+┌──[ quantum-core://kaushik-kadari.sys ]────────────────────────────────────────────────────────┐
+│  $ sys.operator()        ➜  Kadari Kaushik                                                   │
+│  $ sys.discipline()      ➜  Artificial Intelligence & Scalable Full-Stack Engineering        │
+│  $ neural_status()       ➜  HYBRID CNN-LSTM // OPTIMAL INFERENCE (98.4%)                     │
+│  $ core_directive()      ➜  "With Great Tech Stack Comes Great Responsibility"                │
+│  $ memory_integrity()    ➜  [████████████████████] 100% OPERATIONAL                          │
+│  $ active_missions()     ➜  CardioDetect AI · Smart School Portal · Inventory ERP            │
+└───────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 </div>
 
-<img src="./assets/web_divider.svg" width="100%" alt="Spider Web Divider" />
+<img src="./assets/future_divider.svg" width="100%" alt="Fiber Optic Divider" />
 
-## 🕸️ / THE WEB OF SKILLS (TECH ARSENAL)
+## ⚡ / QUANTUM TECH ARSENAL (SKILLS & CAPABILITIES)
 
 <div align="center">
   <p>
@@ -117,7 +94,7 @@
 <table width="100%" border="0">
   <tr>
     <td width="50%" valign="top">
-      <h4>⚡ CORE WEB-SLINGER LANGUAGES</h4>
+      <h4>⚡ QUANTUM CORE LANGUAGES</h4>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -130,24 +107,24 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4>🛡️ FULL-STACK &amp; BACKEND ARMOR</h4>
+      <h4>🛡️ FULL-STACK &amp; SYSTEM FRAMEWORKS</h4>
       <p>
         <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
         <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
         <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
         <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind" />
         <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-        <img src="https://img.shields.io/badge/REST_APIs-E62429?style=for-the-badge&logoColor=white" alt="REST APIs" />
+        <img src="https://img.shields.io/badge/REST_APIs-00F0FF?style=for-the-badge&logoColor=black" alt="REST APIs" />
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🧠 SPIDER-SENSE (AI &amp; DEEP LEARNING)</h4>
+      <h4>🧠 NEURAL NETWORKS &amp; MACHINE LEARNING</h4>
       <p>
         <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
         <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-        <img src="https://img.shields.io/badge/CNN_%26_LSTM-E62429?style=for-the-badge&logoColor=white" alt="CNN & LSTM" />
+        <img src="https://img.shields.io/badge/CNN_%26_LSTM-8B5CF6?style=for-the-badge&logoColor=white" alt="CNN & LSTM" />
         <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
         <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-Learn" />
         <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
@@ -155,7 +132,7 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4>🚀 STARK TECH &amp; DEPLOYMENT</h4>
+      <h4>☁️ CLOUD, DATABASES &amp; INFRASTRUCTURE</h4>
       <p>
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
         <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
@@ -169,16 +146,16 @@
   </tr>
 </table>
 
-<img src="./assets/web_divider.svg" width="100%" alt="Spider Web Divider" />
+<img src="./assets/future_divider.svg" width="100%" alt="Fiber Optic Divider" />
 
-## 🚀 / HIGH-PRIORITY MISSIONS (FEATURED PROJECTS)
+## 🚀 / HIGH-PRIORITY MISSIONS (FEATURED SYSTEMS)
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <div align="center">
         <h3>🫀 CardioDetect AI</h3>
-        <p><b>Cardiovascular Disease Detection with Hybrid CNN-LSTM</b></p>
+        <p><b>Cardiovascular Abnormality Detection with Hybrid CNN-LSTM</b></p>
       </div>
       <p>
         An AI-powered diagnostic platform leveraging a <b>hybrid CNN-LSTM deep learning architecture</b> to detect cardiovascular abnormalities from raw digital ECG signals (CSV, NPY, TXT) and paper ECG print scans using computer vision.
@@ -188,16 +165,16 @@
       </p>
       <p align="center">
         <a href="https://cardiodetect.vercel.app">
-          <img src="https://img.shields.io/badge/LIVE_DEMO-00D2FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+          <img src="https://img.shields.io/badge/LAUNCH_SYSTEM-00F0FF?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Demo" />
         </a>
         <a href="https://github.com/Kaushikkadari/Detection-of-Cardiovascular-Diseases-Using-CNN-And-LSTM">
-          <img src="https://img.shields.io/badge/SOURCE_CODE-E62429?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
+          <img src="https://img.shields.io/badge/SOURCE_CODE-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
         </a>
       </p>
     </td>
     <td width="50%" valign="top">
       <div align="center">
-        <h3>🏫 Smart School Management Portal</h3>
+        <h3>🏫 Smart Campus Management Portal</h3>
         <p><b>Enterprise Role-Based Campus Management Engine</b></p>
       </div>
       <p>
@@ -208,10 +185,10 @@
       </p>
       <p align="center">
         <a href="https://smartschoolportal.vercel.app">
-          <img src="https://img.shields.io/badge/LIVE_DEMO-00D2FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+          <img src="https://img.shields.io/badge/LAUNCH_SYSTEM-00F0FF?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Demo" />
         </a>
         <a href="https://github.com/Kaushikkadari/School-Management-System">
-          <img src="https://img.shields.io/badge/SOURCE_CODE-E62429?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
+          <img src="https://img.shields.io/badge/SOURCE_CODE-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
         </a>
       </p>
     </td>
@@ -219,21 +196,21 @@
   <tr>
     <td width="50%" valign="top">
       <div align="center">
-        <h3>📦 Smart Inventory System</h3>
-        <p><b>Role-Based Stock, Invoicing &amp; Billing Engine</b></p>
+        <h3>📦 Role-Based Inventory ERP</h3>
+        <p><b>Multi-Role Stock, Invoicing &amp; Financial Engine</b></p>
       </div>
       <p>
-        Multi-role inventory control system built with Django. Provides isolated portals for Admins, Accountants, and Billing staff with automated purchase orders, invoicing, payments, real-time stock alerts, and expense management.
+        Multi-role inventory control system built with Django. Provides isolated portals for Admins, Accountants, and Billing staff with automated purchase orders, invoicing, payments, real-time stock alerts, and expense analytics.
       </p>
       <p>
-        <b>Tech:</b> <code>Django</code> · <code>Python</code> · <code>Financial Reports</code> · <code>HTML5/CSS3</code> · <code>Vercel</code>
+        <b>Tech:</b> <code>Django</code> · <code>Python</code> · <code>Financial Analytics</code> · <code>HTML5/CSS3</code> · <code>Vercel</code>
       </p>
       <p align="center">
         <a href="https://inventory-management-system-theta-nine-19.vercel.app">
-          <img src="https://img.shields.io/badge/LIVE_DEMO-00D2FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+          <img src="https://img.shields.io/badge/LAUNCH_SYSTEM-00F0FF?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Demo" />
         </a>
         <a href="https://github.com/Kaushikkadari/Inventory-Management-System">
-          <img src="https://img.shields.io/badge/SOURCE_CODE-E62429?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
+          <img src="https://img.shields.io/badge/SOURCE_CODE-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
         </a>
       </p>
     </td>
@@ -250,10 +227,10 @@
       </p>
       <p align="center">
         <a href="https://kkwhisper.vercel.app">
-          <img src="https://img.shields.io/badge/LIVE_DEMO-00D2FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+          <img src="https://img.shields.io/badge/LAUNCH_SYSTEM-00F0FF?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Demo" />
         </a>
         <a href="https://github.com/Kaushikkadari/kkwhisper">
-          <img src="https://img.shields.io/badge/SOURCE_CODE-E62429?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
+          <img src="https://img.shields.io/badge/SOURCE_CODE-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
         </a>
       </p>
     </td>
@@ -262,75 +239,44 @@
 
 <div align="center">
   <p>
-    <b>📚 Also Explore:</b> <a href="https://kkwrites.vercel.app"><b>KK Writes</b></a> — An interactive author platform &amp; book showcase built with TypeScript.
+    <b>📚 Additional Systems:</b> <a href="https://kkwrites.vercel.app"><b>KK Writes</b></a> — Interactive author publication and literary showcase built with TypeScript.
   </p>
 </div>
 
-<img src="./assets/web_divider.svg" width="100%" alt="Spider Web Divider" />
+<img src="./assets/future_divider.svg" width="100%" alt="Fiber Optic Divider" />
 
-## 📊 / MULTIVERSE TELEMETRY (GITHUB METRICS)
+## 📊 / QUANTUM TELEMETRY (GITHUB METRICS)
 
 <div align="center">
   <table border="0">
     <tr>
       <td align="center" valign="middle">
-        <!-- ROCK-SOLID SPIDER-MAN HUD STATS CARD -->
+        <!-- ROCK-SOLID QUANTUM TELEMETRY STATS CARD -->
         <img src="./assets/github_stats.svg" width="440" alt="Kaushik's GitHub Stats" style="border-radius: 10px;" />
       </td>
       <td align="center" valign="middle">
-        <!-- LIVE SPIDER-MAN THEMED STREAK STATS -->
-        <img src="https://streak-stats.demolab.com/?user=Kaushikkadari&theme=dark&background=0B0E14&border=E62429&stroke=E62429&ring=E62429&fire=E62429&currStreakNum=00D2FF&sideNums=E0E6ED&currStreakLabel=00D2FF&dates=8B949E" width="440" alt="Kaushik's GitHub Streak" style="border-radius: 10px;" />
+        <!-- LIVE QUANTUM THEMED STREAK STATS -->
+        <img src="https://streak-stats.demolab.com/?user=Kaushikkadari&theme=dark&background=060911&border=00F0FF&stroke=00F0FF&ring=00F0FF&fire=8B5CF6&currStreakNum=00F0FF&sideNums=F1F5F9&currStreakLabel=00F0FF&dates=94A3B8" width="440" alt="Kaushik's GitHub Streak" style="border-radius: 10px;" />
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <!-- ROCK-SOLID SPIDER-MAN TOP LANGUAGES CARD -->
+        <!-- ROCK-SOLID SYSTEM COMPILATION TOP LANGUAGES CARD -->
         <img src="./assets/top_langs.svg" width="440" alt="Kaushik's Top Languages" style="border-radius: 10px;" />
       </td>
     </tr>
   </table>
-
-  <!-- DAILY AUTOMATED SPIDER-SNAKE -->
-  <br/>
-  <img src="https://raw.githubusercontent.com/Kaushikkadari/Kaushikkadari/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Spider-Man Contribution Snake" onerror="this.style.display='none'" />
 </div>
 
-<img src="./assets/web_divider.svg" width="100%" alt="Spider Web Divider" />
+<img src="./assets/future_divider.svg" width="100%" alt="Fiber Optic Divider" />
 
-## 🎬 / SPIDER-VERSE: ACTION IN MOTION
-
-<table width="100%" border="0">
-  <tr>
-    <td width="50%" align="center">
-      <img src="./assets/across_spiderverse.gif" width="100%" alt="Across the Spider-Verse Action" style="border-radius: 12px; border: 2px solid #E62429;" />
-    </td>
-    <td width="50%" align="center">
-      <img src="./assets/spiderman_swing_action.gif" width="100%" alt="Spider-Man Web Swing" style="border-radius: 12px; border: 2px solid #00D2FF;" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <br/>
-      <blockquote>
-        <p><b>"Anyone can wear the mask. You can wear the mask. If you didn't know that before, I hope you do now."</b></p>
-        <p><i>— Spider-Man: Into the Spider-Verse</i></p>
-      </blockquote>
-      <div>
-        <code>COMPILE</code> ➜ <code>TRAIN</code> ➜ <code>TEST</code> ➜ <code>DEPLOY</code> ➜ <code>REPEAT</code>
-      </div>
-    </td>
-  </tr>
-</table>
-
-<img src="./assets/web_divider.svg" width="100%" alt="Spider Web Divider" />
-
-## 🌐 / WEB-SHOOTERS &amp; COMM-CHANNELS (LET'S CONNECT)
+## 🌐 / COMM-CHANNELS &amp; TRANSMISSIONS (LET'S CONNECT)
 
 <div align="center">
 
-  <h3>🕸️ HAVE AN EXCITING MISSION OR PROJECT IN MIND?</h3>
+  <h3>⚡ INITIATE COMMUNICATION OR COLLABORATION</h3>
   <p>
-    Whether you're looking to collaborate on <b>Machine Learning</b>, <b>Full-Stack Applications</b>, or discuss next-gen tech — my communication channels are always open!
+    Interested in collaborating on <b>Artificial Intelligence</b>, <b>Deep Learning</b>, or <b>Scalable Full-Stack Web Architecture</b>?
   </p>
 
   <br/>
@@ -349,14 +295,14 @@
     </a>
     &nbsp;
     <a href="https://cardiodetect.vercel.app">
-      <img src="https://img.shields.io/badge/CardioDetect_AI-E62429?style=for-the-badge&logo=vercel&logoColor=white" alt="CardioDetect AI" />
+      <img src="https://img.shields.io/badge/CardioDetect_AI-00F0FF?style=for-the-badge&logo=vercel&logoColor=black" alt="CardioDetect AI" />
     </a>
   </p>
 
   <br/>
 
   <p align="center">
-    <sub>🕷️ Engineered with ❤️, Spider-Silk, and Python by <b>Kadari Kaushik</b> • All rights swung.</sub>
+    <sub>⚡ Engineered with high-precision, neural networks, and Python by <b>Kadari Kaushik</b>.</sub>
   </p>
 
 </div>

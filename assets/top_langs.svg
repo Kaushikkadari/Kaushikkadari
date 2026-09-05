@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 195" width="450" height="195">
   <defs>
     <linearGradient id="langBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#07090e"/>
-      <stop offset="100%" stop-color="#0d131f"/>
+      <stop offset="0%" stop-color="#060911"/>
+      <stop offset="100%" stop-color="#0b1120"/>
     </linearGradient>
 
     <style>
       .lang-title {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         font-weight: 700;
-        font-size: 16px;
-        fill: #e62429;
+        font-size: 15px;
+        fill: #8b5cf6;
         letter-spacing: 1.5px;
       }
       .lang-name {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         font-weight: 600;
         font-size: 13px;
-        fill: #e2e8f0;
+        fill: #f1f5f9;
       }
       .lang-pct {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -29,10 +29,10 @@
   </defs>
 
   <!-- Card Background -->
-  <rect width="448" height="193" x="1" y="1" rx="10" fill="url(#langBg)" stroke="#e62429" stroke-width="1.8"/>
+  <rect width="448" height="193" x="1" y="1" rx="10" fill="url(#langBg)" stroke="#8b5cf6" stroke-width="1.8"/>
 
   <!-- High-Tech Corner HUD Brackets -->
-  <g stroke="#00d2ff" stroke-width="2" fill="none" opacity="0.85">
+  <g stroke="#00f0ff" stroke-width="2" fill="none" opacity="0.85">
     <path d="M 8 20 L 8 8 L 20 8"/>
     <path d="M 440 20 L 440 8 L 428 8"/>
     <path d="M 8 174 L 8 186 L 20 186"/>
@@ -41,21 +41,22 @@
 
   <!-- Card Header -->
   <g transform="translate(25, 32)">
-    <circle cx="6" cy="-2" r="5" fill="#00d2ff"/>
-    <text x="22" y="2" class="lang-title">WEAPON ARSENAL // LANGUAGES</text>
+    <circle cx="6" cy="-2" r="4" fill="#8b5cf6"/>
+    <circle cx="6" cy="-2" r="2" fill="#ffffff"/>
+    <text x="20" y="2" class="lang-title">SYSTEM COMPILATION // TOP STACK</text>
   </g>
 
   <!-- Top Aggregate Progress Bar -->
   <g transform="translate(25, 52)">
-    <rect width="400" height="10" rx="5" fill="#1b2438"/>
+    <rect width="400" height="10" rx="5" fill="#131c30"/>
     <!-- Python Segment -->
-    <rect x="0" y="0" width="150" height="10" rx="5" fill="#3776AB"/>
+    <rect x="0" y="0" width="150" height="10" rx="5" fill="#00f0ff"/>
     <!-- TypeScript Segment -->
-    <rect x="145" y="0" width="130" height="10" fill="#3178C6"/>
+    <rect x="145" y="0" width="130" height="10" fill="#8b5cf6"/>
     <!-- HTML/CSS Segment -->
-    <rect x="270" y="0" width="75" height="10" fill="#E34F26"/>
+    <rect x="270" y="0" width="75" height="10" fill="#38bdf8"/>
     <!-- JS & Others Segment -->
-    <rect x="340" y="0" width="60" height="10" rx="5" fill="#F7DF1E"/>
+    <rect x="340" y="0" width="60" height="10" rx="5" fill="#10b981"/>
   </g>
 
   <!-- Language List Grid -->
@@ -63,19 +64,19 @@
     <!-- Column 1 -->
     <!-- Python -->
     <g transform="translate(0, 0)">
-      <circle cx="5" cy="5" r="5" fill="#3776AB"/>
+      <circle cx="5" cy="5" r="5" fill="#00f0ff"/>
       <text x="18" y="9" class="lang-name">Python</text>
       <text x="130" y="9" class="lang-pct">37.5%</text>
     </g>
     <!-- TypeScript -->
     <g transform="translate(0, 32)">
-      <circle cx="5" cy="5" r="5" fill="#3178C6"/>
+      <circle cx="5" cy="5" r="5" fill="#8b5cf6"/>
       <text x="18" y="9" class="lang-name">TypeScript</text>
       <text x="130" y="9" class="lang-pct">32.5%</text>
     </g>
     <!-- HTML5 / CSS3 -->
     <g transform="translate(0, 64)">
-      <circle cx="5" cy="5" r="5" fill="#E34F26"/>
+      <circle cx="5" cy="5" r="5" fill="#38bdf8"/>
       <text x="18" y="9" class="lang-name">HTML / CSS</text>
       <text x="130" y="9" class="lang-pct">18.0%</text>
     </g>
@@ -83,13 +84,13 @@
     <!-- Column 2 -->
     <!-- JavaScript -->
     <g transform="translate(200, 0)">
-      <circle cx="5" cy="5" r="5" fill="#F7DF1E"/>
+      <circle cx="5" cy="5" r="5" fill="#10b981"/>
       <text x="18" y="9" class="lang-name">JavaScript</text>
       <text x="125" y="9" class="lang-pct">7.0%</text>
     </g>
-    <!-- Java / C -->
+    <!-- Java & C -->
     <g transform="translate(200, 32)">
-      <circle cx="5" cy="5" r="5" fill="#ED8B00"/>
+      <circle cx="5" cy="5" r="5" fill="#f59e0b"/>
       <text x="18" y="9" class="lang-name">Java &amp; C</text>
       <text x="125" y="9" class="lang-pct">5.0%</text>
     </g>
