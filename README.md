@@ -24,12 +24,12 @@
 
 <img src="./assets/future_divider.svg" width="100%" alt="Fiber Optic Divider" />
 
-## 👑 / ROYAL IDENTITY MATRIX (ABOUT ME)
+## About Me
 
 <table border="0" width="100%">
   <tr>
     <td width="230" align="center" valign="middle">
-      <!-- 👑 ROYAL RED HUD AVATAR ON LEFT -->
+      <!-- ROYAL RED HUD AVATAR ON LEFT -->
       <a href="https://github.com/Kaushikkadari">
         <img src="./assets/avatar_royal.gif" width="190" height="190" alt="Kadari Kaushik Royal Red Avatar" style="border-radius: 50%; border: 3px solid #ff1e27; box-shadow: 0 0 25px rgba(255, 30, 39, 0.55);" />
       </a>
@@ -37,15 +37,15 @@
       <img src="https://img.shields.io/badge/IDENTITY-VERIFIED%20%E2%9C%A6-DC2626?style=flat-square&labelColor=08090D" alt="Identity Verified" />
     </td>
     <td valign="top">
-      <h3>Greetings, Explorer! 👋 I'm <b>Kadari Kaushik</b></h3>
+      <h3>Greetings! 👋 I'm <b>Kadari Kaushik</b></h3>
       <p>
-        I'm a <b>Computer Science & Engineering (AI & ML)</b> graduate and full-stack software systems architect based in <b>Hyderabad, India</b>. I specialize in designing and deploying high-performance <b>Artificial Intelligence models</b>, <b>Deep Neural Networks</b>, and <b>Production Full-Stack Web Architectures</b>.
+        I'm a <b>Computer Science &amp; Engineering (AI &amp; ML)</b> graduate and full-stack software systems architect based in <b>Hyderabad, India</b>. I specialize in designing and deploying high-performance <b>Artificial Intelligence models</b>, <b>Deep Neural Networks</b>, and <b>Production Full-Stack Web Architectures</b>.
       </p>
       <p>
         My technical discipline centers on bridging scientific research with production-grade engineering: from training <b>hybrid CNN-LSTM deep learning architectures</b> to detect cardiovascular disease from multi-format ECG signals, to building multi-role enterprise web engines with <b>Django</b> and <b>TypeScript</b>.
       </p>
       <ul>
-        <li>🎓 <b>Academic Foundation:</b> B.Tech in CSE (Artificial Intelligence & Machine Learning), Class of 2025.</li>
+        <li>🎓 <b>Academic Foundation:</b> B.Tech in CSE (Artificial Intelligence &amp; Machine Learning), Class of 2025.</li>
         <li>🧠 <b>Core Discipline:</b> Computer Vision, Time-Series Neural Models, Signal Processing, and Scalable Backend Engineering.</li>
         <li>⚡ <b>Core Directive:</b> <i>"With Great Tech Stack Comes Great Responsibility."</i></li>
       </ul>
@@ -55,25 +55,55 @@
 
 <br/>
 
-<!-- 🖥️ ROYAL CORE TERMINAL HUD -->
-<div align="center">
+<!-- EFFECTIVE SYSTEM PROFILE HIGHLIGHTS TABLE -->
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="30%" align="left">Profile Parameter</th>
+      <th align="left">Details &amp; Architecture Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>👤 Role / Operator</b></td>
+      <td><b>Kadari Kaushik</b> — AI &amp; Software Systems Architect</td>
+    </tr>
+    <tr>
+      <td><b>🎯 Core Discipline</b></td>
+      <td>Artificial Intelligence, Deep Learning &amp; Scalable Full-Stack Engineering</td>
+    </tr>
+    <tr>
+      <td><b>🧠 Neural Architecture</b></td>
+      <td><code>Hybrid CNN-LSTM</code> · Optimal Inference (<b>98.4% Accuracy</b>)</td>
+    </tr>
+    <tr>
+      <td><b>⚡ Engineering Directive</b></td>
+      <td><i>"With Great Tech Stack Comes Great Responsibility"</i></td>
+    </tr>
+    <tr>
+      <td><b>🟢 System Status</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/System-100%25%20Operational-10B981?style=flat-square&logo=statuspage&logoColor=white" alt="Operational" />
+        &nbsp;
+        <img src="https://img.shields.io/badge/Inference-Optimal%20(98.4%25)-DC2626?style=flat-square&logoColor=white" alt="Inference Optimal" />
+      </td>
+    </tr>
+    <tr>
+      <td><b>🚀 Active Systems</b></td>
+      <td>
+        <a href="https://cardiodetect.vercel.app"><b>🫀 CardioDetect AI</b></a> &nbsp;·&nbsp;
+        <a href="https://smartschoolportal.vercel.app"><b>🏫 Smart School Portal</b></a> &nbsp;·&nbsp;
+        <a href="https://inventory-management-system-theta-nine-19.vercel.app"><b>📦 Inventory ERP</b></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-```text
-┌──[ royal-core://kaushik-kadari.sys ]──────────────────────────────────────────────────────────┐
-│  $ sys.operator()        ➜  Kadari Kaushik                                                   │
-│  $ sys.discipline()      ➜  Artificial Intelligence & Scalable Full-Stack Engineering        │
-│  $ neural_status()       ➜  HYBRID CNN-LSTM // OPTIMAL INFERENCE (98.4%)                     │
-│  $ core_directive()      ➜  "With Great Tech Stack Comes Great Responsibility"                │
-│  $ memory_integrity()    ➜  [████████████████████] 100% OPERATIONAL                          │
-│  $ active_missions()     ➜  CardioDetect AI · Smart School Portal · Inventory ERP            │
-└───────────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
-</div>
+<br/>
 
 <img src="./assets/future_divider.svg" width="100%" alt="Fiber Optic Divider" />
 
-## ⚡ / ROYAL TECH ARSENAL (SKILLS & CAPABILITIES)
+## Skills &amp; Tech Stack
 
 <div align="center">
   <p>
@@ -88,7 +118,7 @@
 <table width="100%" border="0">
   <tr>
     <td width="50%" valign="top">
-      <h4>⚡ ROYAL CORE LANGUAGES</h4>
+      <h4>💻 Programming Languages</h4>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -101,7 +131,7 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4>🛡️ FULL-STACK &amp; SYSTEM FRAMEWORKS</h4>
+      <h4>🌐 Frameworks &amp; Technologies</h4>
       <p>
         <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
         <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
@@ -114,7 +144,7 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🧠 NEURAL NETWORKS &amp; MACHINE LEARNING</h4>
+      <h4>🧠 AI, Machine Learning &amp; Neural Models</h4>
       <p>
         <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
         <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
@@ -126,7 +156,7 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4>☁️ CLOUD, DATABASES &amp; INFRASTRUCTURE</h4>
+      <h4>☁️ Cloud, Databases &amp; Tools</h4>
       <p>
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
         <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
@@ -142,7 +172,7 @@
 
 <img src="./assets/future_divider.svg" width="100%" alt="Fiber Optic Divider" />
 
-## 🚀 / ROYAL MISSIONS (FEATURED SYSTEMS)
+## Featured Projects
 
 <table>
   <tr>
@@ -239,7 +269,7 @@
 
 <img src="./assets/future_divider.svg" width="100%" alt="Fiber Optic Divider" />
 
-## 📊 / ROYAL TELEMETRY (GITHUB METRICS)
+## GitHub Analytics &amp; Metrics
 
 <div align="center">
   <table border="0">
@@ -264,11 +294,11 @@
 
 <img src="./assets/future_divider.svg" width="100%" alt="Fiber Optic Divider" />
 
-## 🌐 / COMM-CHANNELS &amp; TRANSMISSIONS (LET'S CONNECT)
+## Let's Connect
 
 <div align="center">
 
-  <h3>⚡ INITIATE COMMUNICATION OR COLLABORATION</h3>
+  <h3>Connect &amp; Collaborate</h3>
   <p>
     Interested in collaborating on <b>Artificial Intelligence</b>, <b>Deep Learning</b>, or <b>Scalable Full-Stack Web Architecture</b>?
   </p>
@@ -296,7 +326,7 @@
   <br/>
 
   <p align="center">
-    <sub>👑 Engineered in Royal Black &amp; Red with high precision, neural networks, and Python by <b>Kadari Kaushik</b>.</sub>
+    <sub>Engineered with precision, neural networks, and Python by <b>Kadari Kaushik</b>.</sub>
   </p>
 
 </div>
