@@ -28,10 +28,10 @@
 
 <table border="0" width="100%">
   <tr>
-    <td width="230" align="center" valign="middle">
-      <!-- ROYAL RED HUD AVATAR ON LEFT -->
+    <td width="260" align="center" valign="middle">
+      <!-- ROYAL RED CIRCULAR AVATAR ON LEFT -->
       <a href="https://github.com/Kaushikkadari">
-        <img src="./assets/avatar_royal.gif" width="190" height="190" alt="Kadari Kaushik Royal Red Avatar" style="border-radius: 50%; border: 3px solid #ff1e27; box-shadow: 0 0 25px rgba(255, 30, 39, 0.55);" />
+        <img src="./assets/avatar_royal.gif" width="235" height="235" alt="Kadari Kaushik Royal Red Avatar" style="border-radius: 50%; box-shadow: 0 0 25px rgba(255, 30, 39, 0.5);" />
       </a>
       <br/><br/>
       <img src="https://img.shields.io/badge/IDENTITY-VERIFIED%20%E2%9C%A6-DC2626?style=flat-square&labelColor=08090D" alt="Identity Verified" />
