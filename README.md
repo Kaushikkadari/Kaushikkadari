@@ -9,7 +9,7 @@
 
   <!-- 🛡️ ROYAL HUD STATUS TELEMETRY -->
   <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=kaushikkadari&label=ROYAL%20VIEWS&color=DC2626&style=for-the-badge&labelColor=08090D" alt="Royal Views" />
+    <img src="https://komarev.com/ghpvc/?username=kaushikkadari&label=VIEWS&color=DC2626&style=for-the-badge&labelColor=08090D" alt="Views" />
     &nbsp;
     <img src="https://img.shields.io/badge/SYSTEM_STATUS-ONLINE%20%E2%9C%A6-DC2626?style=for-the-badge&logoColor=white&labelColor=08090D" alt="System Status Online" />
     &nbsp;
@@ -316,10 +316,6 @@
     &nbsp;
     <a href="https://github.com/Kaushikkadari">
       <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
-    </a>
-    &nbsp;
-    <a href="https://cardiodetect.vercel.app">
-      <img src="https://img.shields.io/badge/CardioDetect_AI-DC2626?style=for-the-badge&logo=vercel&logoColor=white" alt="CardioDetect AI" />
     </a>
   </p>
 
