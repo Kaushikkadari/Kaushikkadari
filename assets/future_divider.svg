@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 32" width="100%" height="32">
   <defs>
     <linearGradient id="cyberLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0"/>
-      <stop offset="20%" stop-color="#00f0ff" stop-opacity="0.3"/>
-      <stop offset="45%" stop-color="#00f0ff" stop-opacity="0.9"/>
-      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="1"/>
-      <stop offset="55%" stop-color="#00f0ff" stop-opacity="0.9"/>
-      <stop offset="80%" stop-color="#8b5cf6" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#ff1e27" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#ff1e27" stop-opacity="0.3"/>
+      <stop offset="45%" stop-color="#ff1e27" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#ffd700" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#ff1e27" stop-opacity="0.95"/>
+      <stop offset="80%" stop-color="#b91c1c" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#b91c1c" stop-opacity="0"/>
     </linearGradient>
 
     <filter id="cyberGlow" x="-20%" y="-50%" width="140%" height="200%">
@@ -19,14 +19,13 @@
     </filter>
 
     <style>
-      /* motion.dev inspired cubic-bezier spring easing */
       @keyframes beamTravel {
         0% { stroke-dashoffset: 600; }
         100% { stroke-dashoffset: -600; }
       }
       @keyframes corePulse {
-        0%, 100% { transform: scale(1); filter: drop-shadow(0 0 3px #00f0ff); opacity: 0.9; }
-        50% { transform: scale(1.18); filter: drop-shadow(0 0 8px #8b5cf6); opacity: 1; }
+        0%, 100% { transform: scale(1); filter: drop-shadow(0 0 4px #ff1e27); opacity: 0.9; }
+        50% { transform: scale(1.18); filter: drop-shadow(0 0 10px #ffd700); opacity: 1; }
       }
       .laser-data {
         stroke-dasharray: 70 300;
@@ -42,14 +41,14 @@
   <!-- Fiber Optic Base Path -->
   <line x1="20" y1="16" x2="880" y2="16" stroke="url(#cyberLineGrad)" stroke-width="1.8" filter="url(#cyberGlow)"/>
 
-  <!-- High-Speed Data Stream Pulse -->
-  <line x1="40" y1="16" x2="860" y2="16" stroke="#00f0ff" stroke-width="2" class="laser-data" filter="url(#cyberGlow)"/>
+  <!-- High-Speed Crimson Data Stream Pulse -->
+  <line x1="40" y1="16" x2="860" y2="16" stroke="#ff1e27" stroke-width="2" class="laser-data" filter="url(#cyberGlow)"/>
 
-  <!-- Central Quantum Core -->
+  <!-- Central Royal Crest Core -->
   <g class="quantum-core">
     <!-- Diamond/Hex Chip -->
-    <rect x="440" y="6" width="20" height="20" rx="4" transform="rotate(45 450 16)" fill="#090d16" stroke="#00f0ff" stroke-width="1.5"/>
-    <circle cx="450" cy="16" r="3" fill="#8b5cf6"/>
-    <circle cx="450" cy="16" r="1.5" fill="#ffffff"/>
+    <rect x="440" y="6" width="20" height="20" rx="4" transform="rotate(45 450 16)" fill="#08090d" stroke="#ff1e27" stroke-width="1.5"/>
+    <circle cx="450" cy="16" r="3" fill="#e50914"/>
+    <circle cx="450" cy="16" r="1.5" fill="#ffd700"/>
   </g>
 </svg>

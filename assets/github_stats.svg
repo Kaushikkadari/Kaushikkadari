@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 195" width="450" height="195">
   <defs>
     <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060911"/>
-      <stop offset="100%" stop-color="#0b1120"/>
+      <stop offset="0%" stop-color="#07080c"/>
+      <stop offset="100%" stop-color="#120e14"/>
     </linearGradient>
 
-    <linearGradient id="cyanPurpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f0ff"/>
-      <stop offset="100%" stop-color="#8b5cf6"/>
+    <linearGradient id="redGoldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff1e27"/>
+      <stop offset="100%" stop-color="#ffd700"/>
     </linearGradient>
 
     <style>
@@ -15,14 +15,14 @@
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         font-weight: 700;
         font-size: 15px;
-        fill: #00f0ff;
+        fill: #ff1e27;
         letter-spacing: 1.5px;
       }
       .stat-label {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         font-weight: 500;
         font-size: 13px;
-        fill: #94a3b8;
+        fill: #cbd5e1;
       }
       .stat-value {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -34,18 +34,18 @@
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         font-weight: 900;
         font-size: 24px;
-        fill: #00f0ff;
+        fill: #ff1e27;
       }
       .rank-sub {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         font-weight: 600;
         font-size: 9px;
-        fill: #8b5cf6;
+        fill: #ffd700;
         letter-spacing: 1px;
       }
       @keyframes pulseRing {
-        0%, 100% { stroke: #00f0ff; }
-        50% { stroke: #8b5cf6; }
+        0%, 100% { stroke: #ff1e27; }
+        50% { stroke: #ffd700; }
       }
       .pulse-ring {
         animation: pulseRing 3.5s ease-in-out infinite;
@@ -54,10 +54,10 @@
   </defs>
 
   <!-- Card Background -->
-  <rect width="448" height="193" x="1" y="1" rx="10" fill="url(#cardBg)" stroke="#00f0ff" stroke-width="1.8"/>
+  <rect width="448" height="193" x="1" y="1" rx="10" fill="url(#cardBg)" stroke="#ff1e27" stroke-width="1.8" stroke-opacity="0.8"/>
 
   <!-- High-Tech Corner HUD Brackets -->
-  <g stroke="#8b5cf6" stroke-width="2" fill="none" opacity="0.85">
+  <g stroke="#ffd700" stroke-width="2" fill="none" opacity="0.85">
     <path d="M 8 20 L 8 8 L 20 8"/>
     <path d="M 440 20 L 440 8 L 428 8"/>
     <path d="M 8 174 L 8 186 L 20 186"/>
@@ -66,38 +66,38 @@
 
   <!-- Card Header -->
   <g transform="translate(25, 32)">
-    <!-- Quantum Pulse Dot -->
-    <circle cx="6" cy="-2" r="4" fill="#00f0ff"/>
-    <circle cx="6" cy="-2" r="2" fill="#ffffff"/>
-    <text x="20" y="2" class="card-title">QUANTUM TELEMETRY // STATS</text>
+    <!-- Royal Pulse Dot -->
+    <circle cx="6" cy="-2" r="4" fill="#ff1e27"/>
+    <circle cx="6" cy="-2" r="2" fill="#ffd700"/>
+    <text x="20" y="2" class="card-title">ROYAL TELEMETRY // STATS</text>
   </g>
 
   <!-- Stats Rows -->
   <g transform="translate(30, 68)">
     <!-- Stat 1: Total Stars -->
     <g transform="translate(0, 0)">
-      <circle cx="4" cy="-4" r="3" fill="#00f0ff"/>
+      <circle cx="4" cy="-4" r="3" fill="#ff1e27"/>
       <text x="16" y="0" class="stat-label">Total Stars Earned:</text>
       <text x="195" y="0" class="stat-value">10 ★</text>
     </g>
 
     <!-- Stat 2: Total Contributions -->
     <g transform="translate(0, 26)">
-      <circle cx="4" cy="-4" r="3" fill="#8b5cf6"/>
+      <circle cx="4" cy="-4" r="3" fill="#ffd700"/>
       <text x="16" y="0" class="stat-label">Total Contributions:</text>
       <text x="195" y="0" class="stat-value">97+ [ACTIVE]</text>
     </g>
 
     <!-- Stat 3: Public Repositories -->
     <g transform="translate(0, 52)">
-      <circle cx="4" cy="-4" r="3" fill="#00f0ff"/>
+      <circle cx="4" cy="-4" r="3" fill="#ff1e27"/>
       <text x="16" y="0" class="stat-label">Public Repositories:</text>
       <text x="195" y="0" class="stat-value">8 Projects</text>
     </g>
 
     <!-- Stat 4: Production Deployments -->
     <g transform="translate(0, 78)">
-      <circle cx="4" cy="-4" r="3" fill="#10b981"/>
+      <circle cx="4" cy="-4" r="3" fill="#e50914"/>
       <text x="16" y="0" class="stat-label">Live Cloud Deployments:</text>
       <text x="195" y="0" class="stat-value">5 Verified</text>
     </g>
@@ -106,9 +106,9 @@
   <!-- Rank Gauge on Right -->
   <g transform="translate(365, 110)">
     <!-- Outer Glow Ring -->
-    <circle cx="0" cy="0" r="42" fill="none" stroke="#131d33" stroke-width="6"/>
-    <circle cx="0" cy="0" r="42" fill="none" stroke="#00f0ff" stroke-width="5" stroke-dasharray="210 264" class="pulse-ring"/>
-    <circle cx="0" cy="0" r="34" fill="#060911" stroke="#8b5cf6" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#261014" stroke-width="6"/>
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#ff1e27" stroke-width="5" stroke-dasharray="210 264" class="pulse-ring"/>
+    <circle cx="0" cy="0" r="34" fill="#07080c" stroke="#ffd700" stroke-width="1.5"/>
     <text x="0" y="6" text-anchor="middle" class="rank-circle-text">A+</text>
     <text x="0" y="20" text-anchor="middle" class="rank-sub">ARCHITECT</text>
   </g>

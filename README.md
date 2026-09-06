@@ -1,36 +1,22 @@
 <div align="center">
 
-  <!-- 🌌 HIGH-TECH ANIMATED HERO BANNER (SILKY SMOOTH LASER SWEEP & CIRCUIT PULSES) -->
+  <!-- 👑 ROYAL BLACK & RED ANIMATED HERO BANNER -->
   <a href="https://github.com/Kaushikkadari">
-    <img src="./assets/future_tech_banner.gif" width="100%" alt="Kaushik Kadari - Animated Future Tech Banner" style="border-radius: 14px; box-shadow: 0 10px 30px rgba(0, 240, 255, 0.3);" />
+    <img src="./assets/hero_banner.svg" width="100%" alt="Kaushik Kadari - Royal Black &amp; Red Animated Hero Banner" style="border-radius: 14px; box-shadow: 0 10px 30px rgba(255, 30, 39, 0.35);" />
   </a>
 
   <br/><br/>
 
-  <!-- ⚡ DYNAMIC ANIMATED NAME TITLE (GRADIENT SHIMMER, CYBER GLOW & SCANNING LASER) -->
-  <a href="https://github.com/Kaushikkadari">
-    <img src="./assets/animated_name.svg" width="100%" alt="Kaushik Kadari - Animated Name" />
-  </a>
-
-  <br/>
-
-  <!-- ⚡ DYNAMIC FUTURE TECH TYPING BANNER -->
-  <a href="https://github.com/Kaushikkadari">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&duration=2800&pause=1100&color=00F0FF&center=true&vCenter=true&width=740&lines=AI+%26+Software+Systems+Architect+%E2%9C%A6;Training+Hybrid+CNN-LSTM+Neural+Networks+%E2%9C%A6;Architecting+Scalable+Full-Stack+Web+Engines+%E2%9C%A6;With+Great+Tech+Stack+Comes+Great+Responsibility+%E2%9A%A1;Turning+Complex+Algorithms+Into+Production+Systems+%E2%9C%A6" alt="Future Tech Dynamic Slogan" />
-  </a>
-
-  <br/><br/>
-
-  <!-- 🛡️ QUANTUM HUD STATUS TELEMETRY -->
+  <!-- 🛡️ ROYAL HUD STATUS TELEMETRY -->
   <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=kaushikkadari&label=QUANTUM%20VIEWS&color=00F0FF&style=for-the-badge&labelColor=060911" alt="Quantum Views" />
+    <img src="https://komarev.com/ghpvc/?username=kaushikkadari&label=ROYAL%20VIEWS&color=DC2626&style=for-the-badge&labelColor=08090D" alt="Royal Views" />
     &nbsp;
-    <img src="https://img.shields.io/badge/SYSTEM_STATUS-ONLINE%20%E2%9C%A6-8B5CF6?style=for-the-badge&logoColor=white&labelColor=060911" alt="System Status Online" />
+    <img src="https://img.shields.io/badge/SYSTEM_STATUS-ONLINE%20%E2%9C%A6-DC2626?style=for-the-badge&logoColor=white&labelColor=08090D" alt="System Status Online" />
     &nbsp;
-    <img src="https://img.shields.io/badge/BASE-HYDERABAD%2C%20IN-00F0FF?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=060911" alt="Location Hyderabad" />
+    <img src="https://img.shields.io/badge/BASE-HYDERABAD%2C%20IN-FF1E27?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=08090D" alt="Location Hyderabad" />
     &nbsp;
     <a href="https://www.linkedin.com/in/kadarikaushik/">
-      <img src="https://img.shields.io/badge/CONNECT-LINKEDIN-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=060911" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/CONNECT-LINKEDIN-DC2626?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=08090D" alt="LinkedIn" />
     </a>
   </p>
 
@@ -38,17 +24,17 @@
 
 <img src="./assets/future_divider.svg" width="100%" alt="Fiber Optic Divider" />
 
-## 🔮 / SYSTEM IDENTITY MATRIX (ABOUT ME)
+## 👑 / ROYAL IDENTITY MATRIX (ABOUT ME)
 
 <table border="0" width="100%">
   <tr>
     <td width="230" align="center" valign="middle">
-      <!-- 🔮 FUTURE TECH HOLOGRAPHIC AVATAR ON LEFT -->
+      <!-- 👑 ROYAL RED HUD AVATAR ON LEFT -->
       <a href="https://github.com/Kaushikkadari">
-        <img src="./assets/avatar_future_tech.gif" width="190" height="190" alt="Kadari Kaushik Future Tech Holographic Avatar" style="border-radius: 50%; border: 3px solid #00F0FF; box-shadow: 0 0 25px rgba(0, 240, 255, 0.45);" />
+        <img src="./assets/avatar_royal.gif" width="190" height="190" alt="Kadari Kaushik Royal Red Avatar" style="border-radius: 50%; border: 3px solid #ff1e27; box-shadow: 0 0 25px rgba(255, 30, 39, 0.55);" />
       </a>
       <br/><br/>
-      <img src="https://img.shields.io/badge/IDENTITY-VERIFIED%20%E2%9C%A6-00F0FF?style=flat-square&labelColor=060911" alt="Identity Verified" />
+      <img src="https://img.shields.io/badge/IDENTITY-VERIFIED%20%E2%9C%A6-DC2626?style=flat-square&labelColor=08090D" alt="Identity Verified" />
     </td>
     <td valign="top">
       <h3>Greetings, Explorer! 👋 I'm <b>Kadari Kaushik</b></h3>
@@ -69,11 +55,11 @@
 
 <br/>
 
-<!-- 🖥️ QUANTUM CORE TERMINAL HUD -->
+<!-- 🖥️ ROYAL CORE TERMINAL HUD -->
 <div align="center">
 
 ```text
-┌──[ quantum-core://kaushik-kadari.sys ]────────────────────────────────────────────────────────┐
+┌──[ royal-core://kaushik-kadari.sys ]──────────────────────────────────────────────────────────┐
 │  $ sys.operator()        ➜  Kadari Kaushik                                                   │
 │  $ sys.discipline()      ➜  Artificial Intelligence & Scalable Full-Stack Engineering        │
 │  $ neural_status()       ➜  HYBRID CNN-LSTM // OPTIMAL INFERENCE (98.4%)                     │
@@ -87,7 +73,7 @@
 
 <img src="./assets/future_divider.svg" width="100%" alt="Fiber Optic Divider" />
 
-## ⚡ / QUANTUM TECH ARSENAL (SKILLS & CAPABILITIES)
+## ⚡ / ROYAL TECH ARSENAL (SKILLS & CAPABILITIES)
 
 <div align="center">
   <p>
@@ -102,7 +88,7 @@
 <table width="100%" border="0">
   <tr>
     <td width="50%" valign="top">
-      <h4>⚡ QUANTUM CORE LANGUAGES</h4>
+      <h4>⚡ ROYAL CORE LANGUAGES</h4>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -122,7 +108,7 @@
         <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
         <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind" />
         <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-        <img src="https://img.shields.io/badge/REST_APIs-00F0FF?style=for-the-badge&logoColor=black" alt="REST APIs" />
+        <img src="https://img.shields.io/badge/REST_APIs-DC2626?style=for-the-badge&logoColor=white" alt="REST APIs" />
       </p>
     </td>
   </tr>
@@ -132,7 +118,7 @@
       <p>
         <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
         <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-        <img src="https://img.shields.io/badge/CNN_%26_LSTM-8B5CF6?style=for-the-badge&logoColor=white" alt="CNN & LSTM" />
+        <img src="https://img.shields.io/badge/CNN_%26_LSTM-DC2626?style=for-the-badge&logoColor=white" alt="CNN & LSTM" />
         <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
         <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-Learn" />
         <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
@@ -156,7 +142,7 @@
 
 <img src="./assets/future_divider.svg" width="100%" alt="Fiber Optic Divider" />
 
-## 🚀 / HIGH-PRIORITY MISSIONS (FEATURED SYSTEMS)
+## 🚀 / ROYAL MISSIONS (FEATURED SYSTEMS)
 
 <table>
   <tr>
@@ -173,10 +159,10 @@
       </p>
       <p align="center">
         <a href="https://cardiodetect.vercel.app">
-          <img src="https://img.shields.io/badge/LAUNCH_SYSTEM-00F0FF?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Demo" />
+          <img src="https://img.shields.io/badge/LAUNCH_SYSTEM-DC2626?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
         </a>
         <a href="https://github.com/Kaushikkadari/Detection-of-Cardiovascular-Diseases-Using-CNN-And-LSTM">
-          <img src="https://img.shields.io/badge/SOURCE_CODE-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
+          <img src="https://img.shields.io/badge/SOURCE_CODE-7F1D1D?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
         </a>
       </p>
     </td>
@@ -193,10 +179,10 @@
       </p>
       <p align="center">
         <a href="https://smartschoolportal.vercel.app">
-          <img src="https://img.shields.io/badge/LAUNCH_SYSTEM-00F0FF?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Demo" />
+          <img src="https://img.shields.io/badge/LAUNCH_SYSTEM-DC2626?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
         </a>
         <a href="https://github.com/Kaushikkadari/School-Management-System">
-          <img src="https://img.shields.io/badge/SOURCE_CODE-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
+          <img src="https://img.shields.io/badge/SOURCE_CODE-7F1D1D?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
         </a>
       </p>
     </td>
@@ -215,10 +201,10 @@
       </p>
       <p align="center">
         <a href="https://inventory-management-system-theta-nine-19.vercel.app">
-          <img src="https://img.shields.io/badge/LAUNCH_SYSTEM-00F0FF?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Demo" />
+          <img src="https://img.shields.io/badge/LAUNCH_SYSTEM-DC2626?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
         </a>
         <a href="https://github.com/Kaushikkadari/Inventory-Management-System">
-          <img src="https://img.shields.io/badge/SOURCE_CODE-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
+          <img src="https://img.shields.io/badge/SOURCE_CODE-7F1D1D?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
         </a>
       </p>
     </td>
@@ -235,10 +221,10 @@
       </p>
       <p align="center">
         <a href="https://kkwhisper.vercel.app">
-          <img src="https://img.shields.io/badge/LAUNCH_SYSTEM-00F0FF?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Demo" />
+          <img src="https://img.shields.io/badge/LAUNCH_SYSTEM-DC2626?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
         </a>
         <a href="https://github.com/Kaushikkadari/kkwhisper">
-          <img src="https://img.shields.io/badge/SOURCE_CODE-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
+          <img src="https://img.shields.io/badge/SOURCE_CODE-7F1D1D?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
         </a>
       </p>
     </td>
@@ -253,23 +239,23 @@
 
 <img src="./assets/future_divider.svg" width="100%" alt="Fiber Optic Divider" />
 
-## 📊 / QUANTUM TELEMETRY (GITHUB METRICS)
+## 📊 / ROYAL TELEMETRY (GITHUB METRICS)
 
 <div align="center">
   <table border="0">
     <tr>
       <td align="center" valign="middle">
-        <!-- ROCK-SOLID QUANTUM TELEMETRY STATS CARD -->
+        <!-- ROYAL TELEMETRY STATS CARD -->
         <img src="./assets/github_stats.svg" width="440" alt="Kaushik's GitHub Stats" style="border-radius: 10px;" />
       </td>
       <td align="center" valign="middle">
-        <!-- LIVE QUANTUM THEMED STREAK STATS -->
-        <img src="https://streak-stats.demolab.com/?user=Kaushikkadari&theme=dark&background=060911&border=00F0FF&stroke=00F0FF&ring=00F0FF&fire=8B5CF6&currStreakNum=00F0FF&sideNums=F1F5F9&currStreakLabel=00F0FF&dates=94A3B8" width="440" alt="Kaushik's GitHub Streak" style="border-radius: 10px;" />
+        <!-- LIVE ROYAL THEMED STREAK STATS -->
+        <img src="https://streak-stats.demolab.com/?user=Kaushikkadari&theme=dark&background=07080C&border=DC2626&stroke=DC2626&ring=DC2626&fire=FF1E27&currStreakNum=FF1E27&sideNums=F1F5F9&currStreakLabel=DC2626&dates=94A3B8" width="440" alt="Kaushik's GitHub Streak" style="border-radius: 10px;" />
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <!-- ROCK-SOLID SYSTEM COMPILATION TOP LANGUAGES CARD -->
+        <!-- ROYAL COMPILATION TOP LANGUAGES CARD -->
         <img src="./assets/top_langs.svg" width="440" alt="Kaushik's Top Languages" style="border-radius: 10px;" />
       </td>
     </tr>
@@ -303,14 +289,14 @@
     </a>
     &nbsp;
     <a href="https://cardiodetect.vercel.app">
-      <img src="https://img.shields.io/badge/CardioDetect_AI-00F0FF?style=for-the-badge&logo=vercel&logoColor=black" alt="CardioDetect AI" />
+      <img src="https://img.shields.io/badge/CardioDetect_AI-DC2626?style=for-the-badge&logo=vercel&logoColor=white" alt="CardioDetect AI" />
     </a>
   </p>
 
   <br/>
 
   <p align="center">
-    <sub>⚡ Engineered with high-precision, neural networks, and Python by <b>Kadari Kaushik</b>.</sub>
+    <sub>👑 Engineered in Royal Black &amp; Red with high precision, neural networks, and Python by <b>Kadari Kaushik</b>.</sub>
   </p>
 
 </div>
