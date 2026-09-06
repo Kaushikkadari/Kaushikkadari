@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="240">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" width="100%" height="230">
   <defs>
-    <!-- Royal Crimson & Gold Shimmer Gradient -->
+    <!-- Royal Crimson, Ruby & Gold Shimmer Gradient -->
     <linearGradient id="royalShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ff1e27">
         <animate attributeName="stop-color" values="#ff1e27;#e50914;#ffd700;#ffffff;#ff1e27" dur="4s" repeatCount="indefinite"/>
@@ -19,17 +19,10 @@
       </stop>
     </linearGradient>
 
-    <!-- Royal Slogan Glow Gradient -->
-    <linearGradient id="sloganGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff3344"/>
-      <stop offset="50%" stop-color="#ff1e27"/>
-      <stop offset="100%" stop-color="#ff4d5a"/>
-    </linearGradient>
-
     <!-- Deep Crimson Glow Filter -->
     <filter id="crimsonGlow" x="-20%" y="-30%" width="140%" height="160%">
-      <feGaussianBlur stdDeviation="4" result="blur1"/>
-      <feGaussianBlur stdDeviation="8" result="blur2"/>
+      <feGaussianBlur stdDeviation="3" result="blur1"/>
+      <feGaussianBlur stdDeviation="7" result="blur2"/>
       <feMerge>
         <feMergeNode in="blur2"/>
         <feMergeNode in="blur1"/>
@@ -47,13 +40,6 @@
 
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;800;900&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap');
-      
-      .bg-card {
-        fill: #08090d;
-        stroke: #ff1e27;
-        stroke-width: 1.5;
-        stroke-opacity: 0.35;
-      }
 
       .main-name {
         font-family: 'Orbitron', -apple-system, sans-serif;
@@ -61,13 +47,13 @@
         font-size: 52px;
         letter-spacing: 8px;
         fill: url(#royalShimmer);
-        filter: drop-shadow(0 0 16px rgba(255, 30, 39, 0.65));
+        filter: drop-shadow(0 0 16px rgba(255, 30, 39, 0.7));
       }
 
       .sub-name {
         font-family: 'JetBrains Mono', monospace;
         font-weight: 700;
-        font-size: 13px;
+        font-size: 13.5px;
         letter-spacing: 4px;
         fill: #cbd5e1;
       }
@@ -76,21 +62,21 @@
         font-family: 'Orbitron', sans-serif;
         font-weight: 700;
         font-size: 18px;
-        letter-spacing: 2.5px;
+        letter-spacing: 2px;
         fill: #ff2a3b;
-        filter: drop-shadow(0 0 12px rgba(255, 30, 39, 0.5));
+        filter: drop-shadow(0 0 12px rgba(255, 30, 39, 0.55));
       }
 
       @keyframes laserScan {
         0% { transform: translateX(0px); opacity: 0; }
-        20% { opacity: 1; }
-        80% { opacity: 1; }
+        15% { opacity: 1; }
+        85% { opacity: 1; }
         100% { transform: translateX(700px); opacity: 0; }
       }
 
       @keyframes pulseGlow {
-        0%, 100% { opacity: 0.85; }
-        50% { opacity: 1; filter: drop-shadow(0 0 22px rgba(255, 30, 39, 0.9)); }
+        0%, 100% { opacity: 0.88; }
+        50% { opacity: 1; filter: drop-shadow(0 0 24px rgba(255, 30, 39, 0.95)); }
       }
 
       @keyframes cursorBlink {
@@ -99,16 +85,16 @@
       }
 
       @keyframes sloganPulse {
-        0%, 100% { filter: drop-shadow(0 0 8px rgba(255, 30, 39, 0.4)); opacity: 0.95; }
-        50% { filter: drop-shadow(0 0 16px rgba(255, 30, 39, 0.85)); opacity: 1; }
+        0%, 100% { filter: drop-shadow(0 0 8px rgba(255, 30, 39, 0.45)); opacity: 0.95; }
+        50% { filter: drop-shadow(0 0 16px rgba(255, 30, 39, 0.9)); opacity: 1; }
       }
 
       .laser-line {
-        animation: laserScan 3.2s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+        animation: laserScan 3.4s cubic-bezier(0.16, 1, 0.3, 1) infinite;
       }
 
       .name-group {
-        animation: pulseGlow 3s ease-in-out infinite;
+        animation: pulseGlow 3.2s ease-in-out infinite;
       }
 
       .slogan-group {
@@ -121,19 +107,9 @@
     </style>
   </defs>
 
-  <!-- Banner Background Card -->
-  <rect x="2" y="2" width="896" height="236" rx="16" class="bg-card" />
-
-  <!-- Subtle Ambient Radial Glows in Corners -->
-  <circle cx="100" cy="50" r="150" fill="#ff1e27" opacity="0.04" />
-  <circle cx="800" cy="190" r="150" fill="#ff1e27" opacity="0.04" />
-
-  <!-- Top Laser Trim Accent -->
-  <line x1="250" y1="2" x2="650" y2="2" stroke="#ff1e27" stroke-width="2" opacity="0.6" />
-
-  <!-- Animated Main Name -->
+  <!-- Animated Main Name with 3D Depth -->
   <g class="name-group" text-anchor="middle">
-    <!-- 3D Shadow / Offset Glitch Layers for Depth -->
+    <!-- 3D Shadow Layers for Rich Depth -->
     <text x="453" y="77" class="main-name" fill="#7f1d1d" opacity="0.35">KAUSHIK KADARI</text>
     <text x="447" y="75" class="main-name" fill="#b91c1c" opacity="0.4">KAUSHIK KADARI</text>
     <!-- Primary Shimmering Glowing Text -->
@@ -142,7 +118,7 @@
 
   <!-- Scanning Laser Bar Across Name -->
   <g transform="translate(100, 92)">
-    <line x1="0" y1="0" x2="700" y2="0" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1"/>
+    <line x1="0" y1="0" x2="700" y2="0" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1"/>
     <!-- Laser Beam Pulse -->
     <line x1="0" y1="0" x2="90" y2="0" stroke="#ff1e27" stroke-width="2.5" class="laser-line" filter="url(#laserGlow)"/>
   </g>
@@ -155,7 +131,7 @@
   </g>
 
   <!-- Slogan Divider Line -->
-  <line x1="300" y1="155" x2="600" y2="155" stroke="rgba(255, 30, 39, 0.2)" stroke-width="1" />
+  <line x1="280" y1="156" x2="620" y2="156" stroke="rgba(255, 30, 39, 0.25)" stroke-width="1" />
 
   <!-- Dynamic Slogan with Lightning Bolt -->
   <g class="slogan-group" text-anchor="middle" transform="translate(450, 192)">

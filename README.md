@@ -2,7 +2,7 @@
 
   <!-- 👑 ROYAL BLACK & RED ANIMATED HERO BANNER -->
   <a href="https://github.com/Kaushikkadari">
-    <img src="./assets/hero_banner.svg" width="100%" alt="Kaushik Kadari - Royal Black &amp; Red Animated Hero Banner" style="border-radius: 14px; box-shadow: 0 10px 30px rgba(255, 30, 39, 0.35);" />
+    <img src="./assets/hero_banner.svg" width="100%" alt="Kaushik Kadari - Royal Black &amp; Red Animated Hero Banner" />
   </a>
 
   <br/><br/>
